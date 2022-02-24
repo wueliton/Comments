@@ -1,0 +1,52 @@
+{
+  "comments": [
+    {
+      "_id": "621677161e42700fa8193f24",
+      "name": "Bessie Cooper",
+      "profile_picture": "https://www.adobe.com/br/express/create/media_1a1511af7d5bfa90614cee99fb7b599f28a47a132.jpeg?width=400&format=jpeg&optimize=medium",
+      "comment": "I think for our second compaign we can try to target a different audience. How does it sound for you?",
+      "likes": ["621677161e42700fa8193f35", "621677161e42700fa8193f36"],
+      "created_at": "2014-10-02T03:56:05 +03:00",
+      "replies": [
+        {
+          "_id": "621677161e42700fa8193f35",
+          "name": "Marvin McKinney",
+          "profile_picture": "https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_0.jpg",
+          "comment": "Yes, that sounds good! I can think about this tomorrow. When we plan to start that compaign?",
+          "likes": [
+            "621677161e42700fa8193f24",
+            "621677161e42700fa8193f37",
+            "621677161e42700fa8193f36"
+          ],
+          "created_at": "2014-10-02T04:56:05 +03:00"
+        },
+        {
+          "_id": "621677161e42700fa8193f24",
+          "name": "Bessie Cooper",
+          "profile_picture": "https://www.adobe.com/br/express/create/media_1a1511af7d5bfa90614cee99fb7b599f28a47a132.jpeg?width=400&format=jpeg&optimize=medium",
+          "comment": "We plan to run the compaign on Friday - as far as I know. Do you think you will get this done by Thursday @Marvin?",
+          "likes": [],
+          "created_at": "2014-10-02T05:56:05 +03:00"
+        }
+      ]
+    },
+    {
+      "_id": "621677161e42700fa8193f35",
+      "name": "Marvin McKinney",
+      "profile_picture": "https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_0.jpg",
+      "comment": "The first compaign went smoothly. Please make sure to see all attachments with the results to understand the flow",
+      "likes": ["621677161e42700fa8193f35", "621677161e42700fa8193f24"],
+      "created_at": "2014-10-02T03:56:05 +03:00",
+      "replies": []
+    },
+    {
+      "_id": "621677161e42700fa8193f37",
+      "name": "Savannah Nguyen",
+      "profile_picture": "https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_0.jpg",
+      "comment": "We have just published the first compaign. Let's see the results in 5 days and we will iterate on this.",
+      "likes": [],
+      "created_at": "2014-09-27T03:56:05 +03:00",
+      "replies": []
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+.title {
+  color: red;
+}
+
+.firstComment {
+  position: relative;
+  border-bottom: 1px solid #e2e9ee;
+}
+
+.firstComment:before {
+  content: "";
+  background: #e2e9ee;
+  position: absolute;
+  bottom: 20px;
+  height: calc(100% - 110px);
+  width: 1px;
+  margin-left: 45px;
+}
+
+.userProfile img {
+  border-radius: 50%;
+}
+
+.comment {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.comment h3 {
+  font-size: 1.1em;
+  line-height: 1.5em;
+  margin: 0px;
+  padding: 0px;
+}
+
+.comment h3 span {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 0.7em;
+}
+
+.comment p {
+  font-size: 0.9em;
+  line-height: 1.2em;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0px;
+  padding: 0px;
+}
+
+.actionButtons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 14px;
+}
+
+.like {
+  border: 0px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  color: black;
+  font-family: "Lato";
+  font-weight: bold;
+}
+
+.liked {
+  background-color: #245ee7;
+  color: white;
+}
+
+.reply {
+  color: #5784ec;
+  font-weight: bold;
+  border: 0px;
+  padding: 0px;
+  background-color: transparent;
+}

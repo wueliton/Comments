@@ -1,0 +1,25 @@
+.createDiscussion {
+  background-color: #fafbfc;
+  border-bottom: 1px solid #e2e9ee;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.createDiscussion img {
+  border-radius: 50%;
+}
+
+.createDiscussion input {
+  width: 100%;
+  display: block;
+  border: 1px solid #e5ebf0;
+  border-radius: 4px;
+  padding: 12px;
+  font-family: "Lato";
+}
+
+.createDiscussion input::placeholder {
+  color: #a0a9bf;
+}
